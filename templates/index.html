@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/static/style.css">
+    </head>
+    <body>
+        {% if gender == "Male" %}
+            <h1><u>Hello Mr. {{name}}!</u></h1>
+        {% else %}
+            <h1><u>Hello Mrs. {{name}}!</u></h1>
+        {% endif %}
+    </body>
+</html>
